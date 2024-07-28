@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrar Productos-Abarrotes Santo Toribio</title>
+    <link rel="stylesheet" href="ABSANTST.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="ABSantotoribio.html"><img src="logo.png"class="logo"></a>
+        </div>
+        <div class="title-container">
+            <h1>Administrar Productos</h1>
+         
+        </div>
+        
+        <img src="lista.png"class="user-icon" alt=""></header>
+          
+    </header>
+
+   <nav>
+    <a href="SOBRENOSOTROS.html"><button>Sobre Nosotros</button></a>
+    <a href="PROMO.html"><button>Ofertas</button></a>
+    <a href="PRODUCTOSAB.html"><button>Productos</button></a>
+    </nav>
+
+    <section class="productos-section">
+        <h2>Administrar Productos</h2>
+        <div class="productos-container">
+           
+        </div>
+
+        <div class="form-container">
+            <h3>Agregar Producto</h3>
+            <form id="add-product-form">
+                <input type="text" id="product-name" placeholder="Nombre del producto" required>
+                <input type="number" id="product-price" placeholder="Precio" required>
+                <input id="product-description" placeholder="Descripción" required>
+                <input type="text" id="product-image" placeholder="URL de la imagen" required>
+                <button type="submit">Agregar Producto</button>
+            </form>
+        </div>
+        
+        <div class="form-container">
+            <h3>Modificar Producto</h3>
+            <form id="update-product-form">
+                <input type="number" id="product-id" placeholder="ID del producto" required>
+                <input type="text" id="update-product-name" placeholder="Nuevo nombre del producto">
+                <input type="number" id="update-product-price" placeholder="Nuevo precio">
+                <input id="update-product-description" placeholder="Nueva descripción">
+                <input type="text" id="update-product-image" placeholder="Nueva URL de la imagen">
+                <button type="submit">Modificar Producto</button>
+            </form>
+        </div>
+        
+        <div class="form-container">
+            <h3>Eliminar Producto</h3>
+            <form id="delete-product-form">
+                <input type="number" id="delete-product-id" placeholder="ID del producto" required>
+                <button type="submit">Eliminar Producto</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer-container">
+        <P> REDES SOCIALES </P>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <p>Contacto 44949494</p>
+        <P>@AbarrotesSantoToribio</P>
+    </footer>
+</body>
+</html>

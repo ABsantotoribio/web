@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Spicy+Rice&display=swap');
+body {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    background: linear-gradient(to right, #abf6ea, #238be0);
+    min-height: 100vh;
+    position: relative;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #2f878f;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.title-container {
+    flex: 5;
+    text-align: center;
+}
+
+.title-container h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #000000;
+    text-shadow: 2px 2px #ffffff;
+    
+}
+.menu-icon{
+    display: flex;
+    width: 50px;
+    justify-content:flex-end ;
+    align-items: center;
+}
+
+
+.user-icon{
+    width: 50px;
+    display: flex;;
+    align-items: center;
+    margin-left: 25px;
+    
+    
+}
+
+
+.menu-icon {
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    background-color: #161616;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 200;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+button {
+    background-color: transparent
+    font-weight semibold;
+    color: rgb(0, 0, 0);
+    font-size:  1rem;
+    padding: 1rem 1.5rem;
+    border: 1px solid #000000;
+    border-radius: 1.2rem;
+    transition: all .2s ease;
+    
+}
+
+
+button:hover {
+    box-shadow: .2rem .2rem .5rem #a9e0fe,
+      -.2rem -.2rem .5rem #5287b8
+}
+
+button:active {
+    box-shadow: inset .2rem .2rem .5rem #4e79ad
+    inset  -.1rem -.1rem .5rem #637f9b
+}
+.img_tienda{
+   margin: 10px;
+    width: 600px;
+    height: 550px;
+    border-radius: 1.2rem;
+}
+.Texto{
+    font-size: 3em;
+    color: #000000;
+    text-shadow: 2px 2px #4d93bf;
+    text-align: center;
+    font-family:cursive;
+}
+
+.container-text{
+display: flex;
+}
+
+.footer-container {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    color: #959393;
+    width: 100%;
+    bottom: 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #f4f4f4;
+}
+body.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1.2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container .logo-side {
+    margin-right: 2rem;
+}
+
+.login-logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.login-container .form-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container h2 {
+    font-size: 2.5em;
+    color: #000000;
+    text-shadow: 2px 2px #ffffff;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 1.2rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.login-container button {
+    background-color: #2f878f;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 1.2rem;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    box-shadow: .2rem .2rem .5rem #a9e0fe, -.2rem -.2rem .5rem #5287b8;
+}
+
+.login-container button:active {
+    box-shadow: inset .2rem .2rem .5rem #4e79ad, inset -.1rem -.1rem .5rem #637f9b;
+}
+
+.footer-container {
+    position: end;
+    bottom: 0;
+    width: auto;
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    color: #959393;
+
+}
+
+/*PRODUCTOS*/
+.productos-section {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.producto h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.producto p {
+    margin-bottom: 10px;
+    color: #555555;
+}
+
+.producto button:hover {
+    background-color: #238be0;
+}
+
+nav ul li a.active {
+    color: #238be0; 
+}
+/*PRROMOS*/
+.ofertas-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.ofertas-section h2 {
+    font-size: 2.5rem;
+    color: #2f878f;
+    text-shadow: 1px 1px 2px #ffffff;
+    margin-bottom: 30px;
+}
+
+.ofertas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.oferta {
+    position: relative;
+    background-color: white;
+    border-radius: 1.2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 600px;
+    
+    
+}
+
+.oferta-img-container {
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.oferta-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.oferta-img-container:hover .oferta-img {
+    transform: translateY(-100%);
+}
+
+.promo-texto {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.oferta-img-container:hover .promo-texto {
+    transform: translateY(-100%);
+}
+
+.promo-texto h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.promo-texto p {
+    margin: 0;
+    font-size: 1rem;
+}
+/*edit pro*/
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-container h3 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    color: #2f878f;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-container input {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-container button {
+    background-color: #2f878f;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #238be0;
+}
+
+.form-container button:active {
+    background-color: #1a6fb3;
+}
+/*Sobre nostros*/
+.videosobre-nosotros{
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+    align-items: center;
+}
+.contenedorvideo{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    border: 2px solid #000000;
+    padding: 12px;
+    text-align: center;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+.box-nosotros{
+    width: 600px;
+    height: auto;
+    margin: auto;
+    align-items: center; 
+}
+.map{
+    border-color: #000000;
+     width: 800px;
+     height: 500px;
+}
+/* Media Query para pantallas de hasta 1024px de ancho */
+@media (max-width: 600px) {
+    .title-container h1 {
+        font-size: 2.5em;
+    }
+
+    .img_tienda {
+        width: 80%;
+        height: auto;
+    }
+
+    .Texto {
+        font-size: 1.8em;
+    }
+
+    .videosobre-nosotros {
+        width: 80%;
+        height: auto;
+    }
+}
